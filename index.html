@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody Goody Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Foody Goody</h1>
+        </nav>
+    </header>
+    <main>
+        <section id="menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-item" data-id="1">
+                <h3>Pizza</h3>
+                <p>Price: $10</p>
+            </div>
+            <div class="menu-item" data-id="2">
+                <h3>Burger</h3>
+                <p>Price: $7</p>
+            </div>
+        </section>
+        <section id="food-details-section" class="hidden">
+            <h2>Food Details</h2>
+            <div id="details-content"></div>
+            <button id="order-button">Order Now</button>
+        </section>
+        <section id="order-summary-section" class="hidden">
+            <h2>Order Summary</h2>
+            <div id="summary-content"></div>
+            <button id="order-more-button">Order More</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; M Shahriar Mahmud Rafi</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
